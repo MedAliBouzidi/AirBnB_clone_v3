@@ -22,7 +22,7 @@ classes = {"Amenity": Amenity, "City": City,
 
 class DBStorage:
     """interaacts with the MySQL database"""
-    __engine = None
+    # __engine = None
     __session = None
 
     def __init__(self):
