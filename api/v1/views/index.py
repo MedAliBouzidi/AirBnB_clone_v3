@@ -28,5 +28,3 @@ def number_objects():
         num_objs[names[i]] = storage.count(classes[i])
 
     return jsonify(num_objs)
-
-
